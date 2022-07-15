@@ -1,5 +1,5 @@
 # Credit Card Customer Segmentation with Agglomerative, K-Means, and K-Medoids
----
+
 by [Aditya Nugraha](https://github.com/dyt08/), [Dwi Pamuji Bagaskara](https://github.com/), [Randy Irawani](https://github.com/)
 
 <img src="assets/illustration.jpg" alt="Card machine photo created by fanjianhua - www.freepik.com"/>
@@ -7,7 +7,6 @@ by [Aditya Nugraha](https://github.com/dyt08/), [Dwi Pamuji Bagaskara](https://g
 *Image Source: https://www.freepik.com/photos/card-machine*
 
 ## Contents
----
 
 1. [Business Understanding](#business-understanding)
 1. [Data Understanding](#data-understanding)
@@ -16,7 +15,6 @@ by [Aditya Nugraha](https://github.com/dyt08/), [Dwi Pamuji Bagaskara](https://g
 1. [Conclusion & Recommendation](#conclusion-recommendation)
 
 ## <a id="business-understanding">Business Understanding</a> 
----
 ### Context
 
 Marketing can help businesses increase brand awareness, engagement and sales with promotional campaigns. No matter what area a business focuses on, they can take advantage of all the benefits marketing can offer and expand their reach.
@@ -42,7 +40,6 @@ We will do explanatory data analysis and finding some insight from the data. The
 We will decide the numbers of cluster by using Elbow Method and Silhouette Method. Where in Elbow Method, the number of clusters are decided when the addition of one cluster does not provide significant change in the level of similarity, while in silhouette method, the number of cluster is decided by how close each point in one cluster is to points in the neighboring clusters.
 
 ## <a id="data-understanding">Data Understanding</a>
----
 
 Dataset are obtained from: https://www.kaggle.com/datasets/arjunbhasin2013/ccdata
 
@@ -72,7 +69,6 @@ Dataset are obtained from: https://www.kaggle.com/datasets/arjunbhasin2013/ccdat
 | tenure | Integer | tenure of credit card service for user in years |
 
 ## <a id="data-preprocessing">Data Preprocessing</a>
----
 
 One of the most important preprocessing steps in a Data Science project. Some of the things we do in this project are as follows:
 - Identify outlier, anomaly, duplicates, and missing value. 
@@ -81,7 +77,6 @@ One of the most important preprocessing steps in a Data Science project. Some of
 - Perform processing on purchases, oneoff_purchases, installments_purchases to get the proportion of each attribute mentioned.
 
 ## <a id="modeling">Modeling</a>
----
 
 ### Principal Component Analysis
 
